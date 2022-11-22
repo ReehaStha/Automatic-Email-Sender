@@ -2,9 +2,9 @@ import smtplib, ssl
 
 port = 465  # For SSL
 smtp_server = "smtp.gmail.com"
-sender_email = "demobot86@gmail.com"  # Enter your address
+sender_email = "example@gmail.com"  # Enter your address
 receiver_email = input('Enter The Reciver Email: ')  # Enter receiver address
-password = 'yskncchmyioqotdj'
+password = '*********'
 message = """\
 Subject: E-Mail Send By Python
 
